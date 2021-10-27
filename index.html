@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     
+     <link
+     rel="stylesheet"
+     href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+     crossorigin="anonymous"
+ />
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+   
+
+  <link href="style.css" rel="stylesheet">
+  <title>Hangman</title>
+</head>
+
+<body>
+  <h1>Hangman</h1>
+  <section id="letters">
+    <div class="lett" id="A">A</div>
+    <div class="lett" id="B">B</div>
+    <div class="lett" id="C">C</div>
+    <div class="lett" id="D">D</div>
+    <div class="lett" id="E">E</div>
+    <div class="lett" id="F">F</div>
+    <div class="lett" id="G">G</div>
+    <div class="lett" id="H">H</div>
+    <div class="lett" id="I">I</div>
+    <div class="lett" id="J">J</div>
+    <div class="lett" id="K">K</div>
+    <div class="lett" id="L">L</div>
+    <div class="lett" id="M">M</div>
+    <div class="lett" id="N">N</div>
+    <div class="lett" id="O">O</div>
+    <div class="lett" id="P">P</div>
+    <div class="lett" id="Q">Q</div>
+    <div class="lett" id="R">R</div>
+    <div class="lett" id="S">S</div>
+    <div class="lett" id="T">T</div>
+    <div class="lett" id="U">U</div>
+    <div class="lett" id="V">V</div>
+    <div class="lett" id="W">W</div>
+    <div class="lett" id="X">X</div>
+    <div class="lett" id="Y">Y</div>
+    <div class="lett" id="Z">Z</div>
+    
+  </section>
+
+  <div>
+    <img id="img" src="assets/hangman0.png" alt="hangman">
+  </div>
+
+  <!-- Here you will display the hint for the message. Use an underscore for each letter and a space fo a space. -->
+  <section id="clue">
+    <p>________</p>
+  </section>
+
+  <!-- Show this message at the end of the game and reset the game. -->
+  <section id="gameover">
+    <p>Game Over</p>
+  </section>
+
+  <script src="app.js" defer></script>
+</body>
+
+</html>
